@@ -7,8 +7,9 @@
 <h1>input-password tag demo</h1>
 
 <div style="display: inline-grid; grid-template-columns: 1fr 1fr 1fr;grid-gap: .5em">
-  <div>input-password</div><input-password id=inp1></input-password><div>input-password 0-9 / A-Z / a-z / . / _ / -</div>
+  <div>input-password</div><input-password id=inp1></input-password><div>input-password</div>
   <div>input-password maxlength=8</div><input-password id=inp2 maxlength=8></input-password><div>and limit 8 characters</div>
+  <div>input-password required=required</div><input-password id=inp3 required=required></input-password><div>input-password</div>
 </div>
 
 <br>
@@ -40,6 +41,9 @@ annotate-element {
   background-color: #fdd;
   padding: .1em .8em;
   font-size: 80%;
+}
+.required {
+  background-color: #fdd;
 }
 </style>
 
